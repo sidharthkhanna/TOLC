@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.rm-whats-new sup {
+    text-transform: uppercase;
+    color: silver;
+}
+
+.rm-whats-new img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*------------Adjustments for smaller screens-----------------*/
+
+
+@media only screen and (min-width:800px){
+
+.rm-whats-new .left,.rm-whats-new .right {
+        width: 100%;
+        float: left;
+    }     
+
+}
+
+/*---------Page Elements----------*/
+
+.rm-whats-new {
+    font-family: Roboto, Helvetica, sans-serif;
+    background-color: rgb(239,239,239);
+    padding: 5%;
+    color: rgb(100,100,100);
+}
+
+.rm-whats-new a {
+    font-size: 90%;
+    text-transform: uppercase;
+    color: #ff6c6c;
+    text-decoration: none;
+}
+
+.rm-whats-new {
+    display: block;
+    position:  relative;
+    background-color: #fffffe;
+    padding: 2%;
+    float: left;
+    border-radius: 20px;
+    
+}
+
+.rm-whats-new h1 h2 p {
+    display: inline-block;
+    float: left;
+}
+
+.rm-whats-new h2 {
+    color: rgb(150,150,150);
+	padding-top: 10px;
+}
+
+.rm-whats-new .logo img {
+    width: 5%;
+    display: inline-block;
+    float: right;
+    margin: 2%;
+    animation-name: logo;
+    animation-duration: 2s;
+}
+
+.rm-whats-new .feature-block {
+    display: block;
+    padding: inherit;
+    width: 100%;
+    float: left;
+    border-top: 1px solid rgb(225,225,225);
+}
+
+.rm-whats-new .feature-block .title {
+    display: block;
+	    padding-bottom: 1px;
+}
+
+.rm-whats-new .feature-block .icon {
+    float: left;
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.rm-whats-new .feature-block .left {
+    display: inline-block;
+    width: 48%;
+    float: left;
+    
+}
+
+.rm-whats-new .feature-block .right {
+    display: inline-block;
+    width: 48%;
+    float: right;
+}
+
+.rm-whats-new .feature-block ul li {
+    float: left;
+    list-style: none;
+    color: rgb(150,150,150);
+    margin: 4px;
+    padding: 15px;
+    background-color: rgb(245,245,245);
+    border-radius: 12px;
+}
+
+.rmred {
+    color: #ff6c6c;
+    animation-name: red;
+    animation-duration: 2s;
+}
+
+.rmcomingup {
+    width: 100%;
+    text-align: center;
+}
+
+.rmcomingup .title {
+    text-align: center;
+}
+
+.rmcomingup img {
+    width: 100px;
+}
+
+.rmcomingup a {
+    display: inline-block;
+    padding:15px;
+    margin: 15px;
+    border: 1px solid #ff6c6c;
+    border-radius: 12px;
+    transition: 0.2s;
+    transition-timing-function: linear;
+}
+
+.rmcomingup a:hover {
+    background-color: #ff6c6c;
+    color: white;
+}
+
+
+/*---------Animations------------*/
+
+@keyframes logo {
+   .rm-whats-new from {transform: scale(0,0) rotate(0deg)}
+   .rm-whats-new to {transform: scale(1.0,1.0) rotate(720deg)}
+}
+
+@keyframes  red {
+   .rm-whats-new from {color:rgb(100,100,100);}
+   .rm-whats-new to {color:#ff6c6c;}
+}

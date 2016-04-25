@@ -1,0 +1,27 @@
+.post-share {
+	margin: 20px 0px 10px 0px;
+	height: 20px !important;
+}
+
+.fb_iframe_widget {
+	float: left;
+}
+
+.fb_iframe_widget span {
+	float: left;
+}
+
+#twitter {
+	float: left;
+	margin-right: 10px;
+}
+
+
+@media screen and (max-width: 480px) {
+	.fb_iframe_widget{
+		left: 110px;
+		display:inline-block;
+		margin-top: 0 !important;
+		margin-left: 0 !important;
+	}
+}

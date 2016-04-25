@@ -1,0 +1,72 @@
+@CHARSET "ISO-8859-1";
+
+table.badges .column-cb, table.badges .column-enabled, table.badges .column-actions {
+	width: 10%;
+}
+table.badges .column-badge, table.badges .column-name {
+	width: 15%;
+}
+table.badges .column-description {
+	width: 40%;
+}
+
+.broo-condition .broo-step {
+	margin-bottom: 9px;
+	border: 1px solid #e5e5e5;
+	background: #f9f9f9;
+	padding: 9px 15px;
+	cursor: move;
+	display: block;
+}
+
+.broo-condition .broo-expiry-value {
+	width: 75px;
+}
+.broo-condition .broo-step label, .broo-condition .broo-step select, .broo-condition .broo-step input, .broo-condition .broo-step a {
+	display: inline-block;
+	padding: 3px 5px;
+	vertical-align: middle;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.broo-condition .form-table, .broo-condition .broo-step-list {
+	margin-right: 10px;
+	width: auto;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+
+.broo-condition td.broo-condition-steps {
+	vertical-align: top;
+}
+
+.broo-condition .tagchecklist span {
+	margin-top: 10px;
+}
+
+
+.broo-step .step-meta, .broo-step .step-meta .step-meta-value {
+	display: inline-block;
+	vertical-align: middle;
+}
+.broo-step .step-action, .broo-step .step-meta .step-meta-value {
+	margin-right: 10px;
+}
+
+.broo-step a {
+	color: #0074a2 !important;
+	text-decoration: underline !important;
+}
+
+#broo-badge-icon-upload-btn {
+	display: block;
+}
+#broo-badge-icon-preview {
+	margin-top: 10px;
+}
+
+.broo-about-wrap .three-col .col {
+    width: 29.95% !important;
+}

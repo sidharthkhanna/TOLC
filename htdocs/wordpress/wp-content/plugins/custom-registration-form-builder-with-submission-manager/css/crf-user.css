@@ -1,0 +1,310 @@
+
+/*---------Common Elements---------------*/
+.rmuser * {
+    box-sizing: border-box;
+}
+.rmuser a {
+    text-transform: uppercase;
+    color: #ff6c6c;
+    text-decoration: none;
+}
+.rmuser img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+    transition: 0.4s;
+    
+}
+.rmuser img:hover {
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+    border-radius: 0%;
+    transform:scale(0.9,0.9);
+    
+}
+body .rmuser {
+    font-family: roboto,arial,sans-serif;
+}
+/*------------- RM Specific Elements --------------*/
+.rmuser .nav li {
+    display: inline;
+    float: left;
+    width:30%;
+    text-overflow: clip;
+    list-style-type: none;
+    padding: 8px 0px 8px 0px;
+    text-align: center;
+    transition: 0.4s;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+.rmuser .nav li:hover {
+    border: 2px solid #ff6c6c;
+    cursor: crosshair;
+}
+.rmuser .nav2 {
+    display: block;
+    float: left;
+    width: 100%;
+    border-bottom: 5px solid #ff6c6c;
+    text-transform: uppercase;
+}
+.rmuser .nav2 li {
+    display: inline;
+    float: left;
+    width:30%;
+    font-size: 14px;
+    text-overflow: clip;
+    list-style-type: none;
+    padding: 8px 0px 8px 0px;
+    text-align: center;
+    transition: 0.4s;
+}
+.rmuser .nav2 li:hover {
+    color: #ff6c6c;
+   
+}
+
+.rmuser {
+    width: 100%;
+    max-width: 1000px;
+    display: block;
+    float:left;
+    position: relative;
+    margin: 40px 0px 0px 30px;
+}
+.rmuser .col-1, .rmuser .col-2 {
+    display: inline-block;
+    position: relative;
+    float: left;
+    height:100%;
+    background-color: #fffffe;
+}
+.rmuser .col-1 {
+    width: 40%;
+    padding: 25px;
+}
+.rmuser .col-2 {
+    float: left;
+    width: 58%;
+    margin-left: 2%;
+    margin-bottom:2%;
+    padding: 25px 0px 0px 0px;
+}
+/*------------Adjustments for smaller screens-----------------*/
+@media screen and (max-width: 700px){
+    
+    .rmuser {
+        
+        max-width: 600px;
+    }
+    .rmuser .col-1 {
+        width:100%;
+    }
+    
+    .rmuser .col-2 {
+        width:100%;
+        margin: 20px 0px 0px 0px;
+    }
+    
+    .rmuser .nav li {
+        width:100%;
+        font-size: 20px;
+    }
+    
+    .rmuser .nav2 li {
+        width: 100%;
+        font-size: 20px;
+    }
+    
+   .rmuser table {
+        overflow: auto;
+    }
+}
+.rmuser .usercontent {
+    display: block;
+    float: left;
+    padding: 25px;
+	width:100%;
+}
+.rmuser .title {
+    display: block;
+    float: left;
+    font-family: roboto, arial, sans-serif;
+    font-size:32px;
+    color:#6db5b6;
+    margin-left:50px;
+    text-overflow: ellipsis;
+}
+.rmuser .userrole {
+    display: block;
+    float:left;
+    visibility: visible;
+    font-family: roboto, arial, sans-serif;
+    font-size:12px;
+    color:#6db5b6;
+    text-transform: uppercase;
+    vertical-align: super;
+    text-overflow: ellipsis;
+    animation-name: textfade;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+}
+.rmuser .profileimg {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin:20px 0px 0px 0px;
+    
+}
+.rmuser .userstats {
+    display: inline-block;
+    float:left;
+    width: 100%;
+    color: rgb(200,200,200);
+    font-size: 12px;
+    background-image: url(../images/clock.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    
+}
+.rmuser .field {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    float: left;
+    color: rgb(100,100,100);
+    transition: 0.4s;
+    padding:10px;
+}
+.rmuser .field:hover {
+    background-color: rgb(240,240,240);
+    border-radius: 4px;
+    
+}
+.rmuser .field .label {
+   font-weight: bold;
+    float: left;
+    max-width: 40%;
+    width: 30%;
+}
+.rmuser .field .label::after {
+    content: ":";
+}
+.rmuser .field .value {
+  text-align: left;
+    text-overflow: ellipsis;
+    max-width: 60%;
+    float: left;
+    padding-left: 5%;
+    width: 50%;
+}
+.rmuser .col-1 .nav {
+    display: block;
+    float: left;
+    width:100%;
+    margin-top: 20px;
+    border-top: 1px solid rgb(225,225,225);
+}
+/*table style*/
+.rmuser table, .rmuser td, .rmuser th {    
+    text-align: left;
+	font-size:16px;
+}
+.rmuser table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.rmuser th {
+    text-transform: uppercase;
+    font-weight: normal;
+    border-bottom: 1px solid rgb(225,225,225);
+}
+.rmuser th, .rmuser td {
+    padding: 15px;
+}
+.rmuser tr {
+    transition: 0.4s;
+}
+.rmuser tr:hover {
+    background-color: #f7f7f1;
+    transform: scale(1.02,1.02);
+    
+}
+/*Controls*/
+.rmuser .goback {
+    display: inline-block;
+    float: left;
+    background-image: url(../images/back-arrow.png);
+    background-repeat: no-repeat;
+    width:30px;
+    height:30px;
+    margin:7px;
+    border-radius: 100%;
+    transition-duration: 0.4s;
+}
+.rmuser .goback:hover {
+    transform: scale(1.2,1.2);
+}
+/* Tooltip container */
+.rmuser .tooltip {
+    position: relative;
+    display: inline-block;
+}
+/* Tooltip text */
+.rmuser .tooltip .tooltiptext {
+    visibility: hidden;
+    font-family: Arial, sans-serif;
+    width: 220px;
+    font-size: 14px;
+    background-color: azure;
+    opacity: 1;
+    color: #5e7071;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    border-left: 1px solid #7adfe3;
+    border-top: 1px solid #7adfe3;
+    border-bottom: 3px solid #7adfe3;
+    border-right: 3px solid #7adfe3;
+    z-index: 1;
+}
+.rmuser .tooltip a {
+    display: block;
+    text-align: center;
+}
+.rmuser .tooltiptext a::before {
+    content: "»";
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.rmuser .tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+/* The animation code */
+@keyframes textfade {
+   .rmuser from {color:transparent}
+    .rmuser to {color: #6db5b6}
+    
+}
+
+
+.rm_header{    
+width: 85%;
+margin: 0px auto;
+}
+.rm_header .title {
+    margin: auto;
+    width: 88%;
+    text-align: center;
+}
+.rm_header .userrole{
+    float: none;
+    display: inline;
+}

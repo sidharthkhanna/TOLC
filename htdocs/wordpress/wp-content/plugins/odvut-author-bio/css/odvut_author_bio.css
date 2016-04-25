@@ -1,0 +1,34 @@
+.SocialIcons{	
+	padding:3px;
+	display:inline-block;
+	text-decoration:none;
+	border:none;
+	width:32px;
+	text-align:center;
+	padding-top:1px;
+}
+.SocialIcons:hover{
+	opacity:0.75;
+}
+.oDvutAuthorBioBox{
+	width:100%;
+	text-align:center;
+}
+.oDvutAuthorAvater{
+	border:none;
+	padding-bottom:1px;
+}
+.photo{
+	border-radius:50%;
+}
+.oDvutAuthorBioDetails{
+	text-align:justify !important;	
+}
+.oDvutNoBorder{
+	border:none;
+	text-decoration:none;
+}
+.oDvutAuthorAvaterDash{
+	float:right;
+	clear:both;
+}

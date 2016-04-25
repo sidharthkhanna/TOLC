@@ -1,0 +1,372 @@
+.radio input{ 
+  max-width:none \9;
+}
+ .Checkbox input{
+	 max-width:none \9;
+}
+ .crf_contact_form{
+		line-height: 1.5;
+	}
+.crf-form{
+	height:auto;
+	clear:both;
+	font-size:15px;
+	width:100%;
+	color:inherit;
+}
+#upb-formm #crf_contact_formm{
+	margin:0;
+	padding:0;
+	width:100%;
+}
+.bold-tex{
+	font-weight:bold;
+}
+#crf-form .info-text{
+	text-align: justify;
+    color: inherit;
+    margin-bottom: 20px;
+    line-height: 1.71429;
+    width: 100%;
+    font-weight: bold;
+}
+#upb-formm #crf_contact_form .textareaa{
+	line-height:normal;
+	resize:none;
+	overflow:auto !important;
+}
+
+.crf_contact_form{
+	padding:20px;
+	background:#f9f9f9;
+	border-top:8px solid #000000;
+	float:left;
+}
+.crf_contact_form .crf_heading{
+	margin-bottom:0;
+	padding-bottom:0;
+}
+.crf_contact_form .crf_heading h1{
+	margin:0;
+	border-bottom:1px solid #ebebeb;
+	padding-bottom:15px;
+	font-size:28px;
+}
+.crf_contact_form  .formtable{
+	padding-bottom:15px;
+	width:100%;
+	float:left;
+}
+.crf_contact_form .crf_paragraph{ 
+    margin-bottom:15px; 
+    padding-bottom:0;
+}
+#upb-formm input,textarea{
+	margin:0 !important;
+}
+.crf_contact_form .formtable .crf_label{
+	float:left;
+	width:30%;
+	margin-bottom:0;
+	margin-top:5px;
+	margin-bottom:5px;
+	padding-right: 25px;
+}
+.crf_contact_form .formtable .crf_label label,.crf_contact_form .formtable .crf_input label{
+	color:inherit;
+	font-size:15px;
+	font-weight:inherit;
+	margin-bottom:0;
+	display: inline-block;
+
+}
+.crf_contact_form .formtable .crf_input,.crf_contact_form .formtable .crf_checkbox {
+	width:60%;
+	float:left;
+}
+.crf_contact_form  .formtable .crf_input input[type=text],.crf_contact_form  .formtable .crf_input input[type=password],.crf_contact_form  .formtable .crf_checkbox input[type=text]{
+	width:90%;
+	padding:0px 6px !important;
+	background:#fff;
+	color: #555;
+	display: block;
+	font-size:14px !important;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+	line-height: 1.42857;
+	height:34px !important;
+	border:1px solid #ebebeb;
+	-webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    border-radius: 4px !important;
+	 background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.crf_contact_form  .formtable .crf_input input[type=text]:focus {
+    border-color: #f1b900;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: 0 none;
+}
+ #recaptcha_response_field{
+	display:inline-block;
+	height:17px;
+}
+#recaptcha_widget_div table{
+	table-layout:inherit;
+}
+#recaptcha_widget_div table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td{
+	line-height:normal !important;
+}
+th:empty, td:empty, th.pad, td.pad {
+    opacity:1;
+}
+.formtable .radio-label{
+	margin-top:0 !important;
+}
+#main-upb-form .formtable crf_paragraph p{
+	margin:0 !important;
+}
+.crf_contact_form  .formtable .crf_input textarea{
+	width:90%;
+	padding:0px 6px !important;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+	line-height:normal;
+	line-height: 1.42857;
+	background:#fff;
+	color: #555;
+	font-size:14px !important;
+     border: 1px solid #ccc;
+	 -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    border-radius: 4px !important;
+}
+.crf_contact_form  .formtable .crf_input textarea:focus {
+    border-color: #f1b900;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: 0 none;
+}
+.crf_contact_form  .formtable .crf_input select {
+	width:90%;
+	padding:0px 6px !important;
+	font-size:15px;
+	background:#fff;
+	color: #555;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+	height:34px !important;
+	border:1px solid #ebebeb;
+
+}
+.crf_contact_form  .formtable .crf_input select:focus {
+    border-color: #f1b900;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: 0 none;
+}
+.radio_option{
+	margin-bottom:8px;
+}
+
+.upb-check-text .Checkbox{
+	display: block;
+    margin-bottom: 10px;
+	font-size:14px !important;
+	margin-right:10px;
+    margin-top: 0px !important;
+    position: relative;
+}
+.crf_contact_form label{
+	display:inline-block;
+	margin:0;
+	font-weight:normal;
+}
+.crf_contact_form input[type=checkbox]{
+	 -webkit-appearance: checkbox !important;
+   -moz-appearance:checkbox !important;
+   appearance: checkbox !important;
+   width:auto !important;
+   margin-top:0 !important;
+   padding:0 !important;
+   cursor:pointer;
+   border:none;
+   outline:none;
+   float:none !important;
+   position:relative;
+   top:2px;
+}
+.crf_contact_form input[type=checkbox]{}
+.crf_contact_form .radio-box {
+	padding-top:2px;
+}
+.crf_contact_form .crf_checkbox{
+	padding-top:2px;
+}
+.crf_contact_form input[type=radio]{
+  -webkit-appearance: radio !important;
+   -moz-appearance:radio !important;
+   outline:none;
+   appearance: radio !important;
+   padding:0 !important;
+   cursor:pointer;
+   width:auto !important;
+   margin-top:0 !important;
+   border:none;
+   float:none !important;
+   position:relative;
+   top:2px;
+ }
+.radio_option .radio{
+	margin-right:10px;
+}
+.term-box{
+	margin-bottom:10px;
+}
+.Checkbox label{
+	cursor:pointer;
+}
+
+.UltimatePB-Button-area #submit,.UltimatePB-Button-area #reset {
+	background-color:#FFAE00;
+	background-image: 
+	-webkit-gradient(linear,left top,left bottom,color-stop(0, #FFDD00),color-stop(1, #FFAE00));
+    background-image: -o-linear-gradient(bottom, #FFDD00 10%, #FFAE00 60%);
+    background-image: -moz-linear-gradient(bottom, #FFDD00 10%, #FFAE00 60%);
+    background-image: -webkit-linear-gradient(bottom, #FFDD00 10%, #FFAE00 60%);
+    background-image: -ms-linear-gradient(bottom, #FFDD00 10%, #FFAE00 60%) \9;
+    background-image: linear-gradient(to bottom, #FFDD00 10%, #FFAE00 60%);
+    border-image: none;
+   -webkit-border-radius: 4px ;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #fff;
+	font-size:15px;
+	text-transform:uppercase;
+	font-weight:normal;
+    display: inline-block;
+    padding: 6px 30px 6px !important;
+    text-decoration: none;
+	border:1px solid #ffc600;
+	cursor:pointer;
+	width:auto;
+}
+#recaptcha_area{
+	margin-left:85px;
+}
+
+.UltimatePB-Button-area #submit:hover,.UltimatePB-Button-area #reset:hover{
+	border:1px solid #e3a415;
+	background:#f1b900;
+}
+
+.crf_contact_form .formtablee{ float:right; width:60%; margin-right:10%; text-align: left;}
+.crf_contact_form .formtablee .crf_input_captcha{ }
+
+.UltimatePB-Button-area {
+    background-color: #F9F9F9;
+    float: left;
+    width: 100%;
+    padding: 26px 0px 26px 0px;
+    margin-top: 13px;
+    text-align: center;
+}
+.formtable .crf_contact_attachment .fileinput a{ border:none !important;}
+.formtable .crf_contact_textfield .fileinput a{ border:none !important;}
+.formtable .crf_contact_attachment .fileinput,.formtable .crf_contact_textfield .fileinput { float:left; width:100%;}
+.formtable .crf_contact_attachment input, .formtable .crf_contact_textfield input {
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    width: 66% !important;
+    padding: 2px;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    color: #8a8a8a;
+    font-size: 11px;
+    font-style: italic;
+    float: left;
+}
+
+.fileinput .remove {
+    border-bottom-left-radius: 4px !important;
+    border-top-left-radius: 4px !important;
+    background-color: #da4f49 !important;
+    background-image: linear-gradient(to bottom, #ee5f5b, #bd362f) !important;
+    background-repeat: repeat-x !important;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) !important;
+    color: #ffffff !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25) !important;
+}
+
+.crf_contact_attachment .fileinput:first-child .removebutton {
+    display: none;
+}
+
+.crf_contact_textfield .fileinput:first-child .removebutton {
+    display: none;
+}
+
+
+.formtable .crf_input .reg_frontErr,.formtable .crf_checkbox .reg_frontErr {
+    background-color: #FFE5E5;
+    border: 1px solid #FADBDB;
+    border-radius: 5px;
+    color: #FEA7A7;
+    font-size: 11px;
+    padding: 3px;
+    margin-top: 6px;
+    float: left;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.formtable .crf_contact_attachment .fileinput span , .formtable .crf_contact_textfield .fileinput span {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #f5f5f5;
+    background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+    background-repeat: repeat-x;
+    border-color: #cccccc #cccccc #b3b3b3;
+    border-image: none;
+    border-radius: 4px;
+    border-bottom-left-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 11px;
+    margin-top: 0px;
+    line-height: 1.5;
+    line-height: 11px;
+    margin-right: 3px;
+    margin-bottom: 0;
+    padding: 7px 5px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}
+#crf_login_error{ margin-bottom:10px;}
+.crf_estric {
+    font-weight: bold;
+    color: red;
+}
+.crf_termboxrequired{ width:60% !important; margin-left:30% !important;}
+.crf_price{ display:flex;}
+
+@media only screen and (min-width: 240px) and (max-width: 767px) {
+	.crf_contact_form .formtable .crf_label { width:100%;}
+	.crf_contact_form .formtable .crf_input, .crf_contact_form .formtable .crf_checkbox {
+    width: 100%;}
+	.crf_contact_form .formtablee {
+    float: left;
+    width: 90%;}
+	.crf_contact_form{ width:100%;}
+	.crf_termboxrequired{ width:100% !important; margin-left:0px !important;}
+	
+	}

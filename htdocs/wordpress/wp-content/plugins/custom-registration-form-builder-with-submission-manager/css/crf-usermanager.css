@@ -1,0 +1,265 @@
+
+/*---------Common Elements---------------*/
+.rmcontainer * {
+    box-sizing: border-box;
+}
+
+.rmcontainer div {
+    outline: 0px solid cyan;
+}
+
+.rmcontainer  a {
+    text-transform: uppercase;
+    color: #ff6c6c;
+    text-decoration: none;
+}
+
+body .rmcontainer {
+    font-family: roboto,arial,sans-serif;
+    animation: background;
+    animation-duration: 1s;
+}
+
+@keyframes background {
+    .rmcontainer from {opacity: 0}
+   .rmcontainer to {opacity: 1}
+    
+}
+
+/*------------- RM Specific Elements --------------*/
+
+/*------------Adjustments for smaller screens-----------------*/
+
+@media screen and (max-width: 700px){
+    
+    
+  .rmcontainer table {
+        display: block;
+        overflow: auto;
+    }
+}
+
+.rmcontainer .title {
+    display: block;
+    float: left;
+    font-family: roboto, arial, sans-serif;
+    font-size:32px;
+    color:#6db5b6;
+    margin-left:50px;
+    text-overflow: ellipsis;
+    background-color: #fffffe;
+}
+
+/*table style*/
+
+.rmcontainer td:nth-child(odd) {background-color: rgb(250,250,250);
+}
+
+.rmcontainer table,.rmcontainer td,.rmcontainer th {    
+    text-align: center;
+}
+
+.rmcontainer table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fffffe;
+    margin: 2% 0 0 0;
+    box-shadow: 0px 0px 40px silver;
+}
+
+.rmcontainer th {
+    text-transform: uppercase;
+    font-weight: normal;
+    border-bottom: 2px solid whitesmoke;
+    padding: 8px;
+}
+
+.rmcontainer td {
+    padding: 8px;
+    border-bottom: 1px dotted silver;
+}
+
+.rmcontainer tr {
+    transition: 0.4s;
+}
+
+.rmcontainer tr:hover {
+    background-color: azure;
+    
+}
+
+/* Tooltip container */
+.rmcontainer .tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.rmcontainer .tooltip .tooltiptext {
+    visibility: hidden;
+    font-family: Arial, sans-serif;
+    width: 220px;
+    font-size: 14px;
+    background-color: azure;
+    opacity: 1;
+    color: #5e7071;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    border-left: 1px solid #7adfe3;
+    border-top: 1px solid #7adfe3;
+    border-bottom: 3px solid #7adfe3;
+    border-right: 3px solid #7adfe3;
+    z-index: 1;
+}
+
+.rmcontainer .tooltip a {
+    display: block;
+    text-align: center;
+}
+
+.rmcontainer .tooltiptext a::before {
+    content: "»";
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.rmcontainer .tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+/* The animation code */
+@keyframes textfade {
+    .rmcontainer from {color:transparent}
+    .rmcontainer to {color: #6db5b6}
+    
+}
+
+/*------------Users Table---------*/
+ 
+.rmcontainer {
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 990px;
+    height: auto;
+    margin: 40px 0px 0px 30px;
+	font-size:16px;
+}
+
+.operationsbar {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #fffffe;
+    padding:5px 10px 5px 10px;
+    border-bottom: 5px solid #ff6c6c;
+}
+
+.rmtitle {
+    display: block;
+    float: left;
+    width:70%;
+    font-family: roboto, arial, sans-serif;
+    font-size:32px;
+    color:#6db5b6;
+    text-overflow: ellipsis;
+    background-color: #fffffe;
+    padding:10px;
+}
+
+.rmcontainer .icons {
+    display: inline-block;
+    float: right;
+    padding: inherit;
+}
+
+.rmcontainer .icons img {
+    width: 40px;
+    height: auto;
+    display: inline;
+    margin-left: 10px;
+    transition: 0.2s;
+}
+
+.rmcontainer .icons img:hover {
+    transform: scale(1.1,1.1);
+}
+
+.operationsbar .nav {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding: inherit;
+}
+
+.operationsbar .nav ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    transition: 0.2s;
+}
+
+.operationsbar .nav ul li {
+    display: inline-block;
+    margin-right: 4%;
+}
+
+.rmcontainer table img {
+    width: 30px;
+    height:30px;
+    border-radius: 100%;
+    transition: 0.4s;
+    padding: 0px;
+    overflow: hidden;
+    vertical-align: middle;
+    
+}
+
+.rmcontainer table img:hover {
+    transform: scale(2,2);
+}
+
+/*------Paginations-------*/
+
+ul.pagination {
+    display: inline-block;
+    padding: 10px;;
+    margin: 0;
+    float: right;
+}
+
+ul.pagination li {
+    display: inline;
+    
+}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: white;
+    margin-left: 5px;
+    transition: 0.3s;
+}
+
+ul.pagination li a:hover {
+    color: #ff6c6c;
+}
+
+ul.pagination li a.active {
+    background-color: #ff6c6c;
+    color: white;
+    
+}
+
+ul.rm_action_btn{ float:left; width:80%;}
+ul.rm_action_btn input{ border:none; box-shadow:none;color:#ff6c6c; background:none; text-transform:uppercase; font-size:16px; cursor: pointer;}
+ul.rm_disabled_btn input{ border:none; box-shadow:none; color: #999f9d!important;
+    opacity: 0.3;
+    cursor: default;}
+.operationsbar select#form_id{ float:right;}
+
+

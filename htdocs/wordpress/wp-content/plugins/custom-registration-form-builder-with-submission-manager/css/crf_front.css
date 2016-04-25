@@ -1,0 +1,225 @@
+/**
+* the css file for the plugins front end  
+*/
+
+@charset "utf-8";
+
+#crf_submission_container{
+	
+	float: left;
+	width: 100%;
+
+}
+
+.crf_f_row{
+
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+	/*border: 2px solid black;*/
+	
+}
+
+
+.crf_f_row_heading{
+
+	float: left;
+	width: 100%;
+	/*border: 2px solid black;*/
+	
+}
+
+.crf_containers #crf_f_row_title{
+
+	float: left;
+	width: 100%;    margin-top: 50px;
+	/*border: 2px solid black;*/
+	
+}
+
+
+
+
+.crf_f_column{
+	float : left;
+	width : 50%;
+	/*margin : 1px;*/
+	padding : 5px;
+
+	/*border-bottom: 2px solid black;*/
+}
+
+.crf_f_column3{
+	float : left;
+	width : 33.1%;
+	/*margin : 1px;*/
+	padding : 5px;
+
+	/*border-bottom: 2px solid black;*/
+}
+
+.crf_f_column4{
+	float : left;
+	width : 25%;
+	/*margin : 1px;*/
+	padding : 5px;
+
+	/*border-bottom: 2px solid black;*/
+}
+
+.crf_f_img{
+
+	width:100px !important;
+	height:100px;
+}
+
+.crf_f_column a:link {
+    text-decoration: none;
+}
+
+.crf_f_column a:visited {
+    text-decoration: none;
+}
+
+.crf_f_column a:hover {
+    text-decoration: none;
+}
+
+.crf_f_column a:active {
+    text-decoration: none;
+}
+
+.crf_tbl_heading{
+
+		font-weight: 200;
+		width:100%;
+		border-bottom: 2px solid black ;
+		margin : 10px !important; 
+		padding : 10px ;
+}
+
+.crf_containers{
+
+		overflow : hidden;
+}
+
+.crf_comment_text{
+
+		width:65%;
+		margin:auto !important;
+
+}
+
+.crf_f_comment{
+
+	width : 50%;
+	float:left;
+	margin : 1px 0px 1px 0px;
+	padding : 5px ;
+}
+
+.crf_f_msg{
+
+	text-align: center;
+}
+
+tbody:before, tbody:after { display: none; }
+
+.crf_f_delete{
+
+	float: right; margin-right: 5px;
+}
+
+#crf_f_pdf_response{
+
+	float: right;
+	margin-right: 5px;
+}
+
+.crf_f_icon{
+
+	width:30px;
+  	height:30px;
+	border: 0px !important;
+	margin-left: 8px;
+}
+
+.crf_f_message{
+    /*width: 90%;*/
+	float: left;
+}
+
+
+
+.crf_f_hr{
+
+	max-width: 100% !important;
+}
+
+.crf_f_comments_box{
+
+	width: 100%;
+}
+
+#crf_f_browse{
+
+	/*display:none;*/
+	position: fixed;
+	top: -1000px;
+}
+
+.crf_containers #crf_submission_top .crf_f_hr_div{
+
+	width: 100%;float: left;
+}
+
+.crf_f_box{
+
+	width:100%;
+	display:none;
+}
+
+.crf_f_notes{
+
+	width:100%;
+}
+
+#crf_f_empty{
+
+	width:100%;
+}
+
+.crf_containers #crf_f_tabs {width: 100%; float: left;}
+.crf_containers #crf_f_tabs .crf_f_tab {float: left;}
+.crf_containers #crf_f_tabs {margin: 20px 0px 30px 0; border-bottom: 1px solid #E3E3E3;}
+.crf_containers #crf_f_tabs .crf_f_tab {margin-right: 15px; cursor: pointer;}
+.crf_containers #crf_f_tabs .crf_f_tab .crf_tabHeadTitle {padding: 5px 15px;}
+.crf_containers #crf_f_tabs .crf_f_tab.crf_f_tab_active {background: #f0f0f0; color: rgb(231, 63, 63);
+border: 1px solid #DADADA;}
+.crf_containers #crf_f_tabs .crf_f_tab .crf_tabHeadTitle:hover {color: rgb(231, 63, 63);}
+.crf_containers #crf_f_logout {float: left;margin: 0px;width: 9%;}
+.crf_containers .crf_f_row_heading {background: #F0F0F0; border: 1px solid #DADADA;}
+.crf_containers .crf_f_row #crf_f_pdf_response {float: right; margin-top: 10px;}
+.crf_f_row .crf_f_column3 a {color: #464646;}
+.crf_containers #crf_f_logout a {font-size: 14px; color: rgb(231, 63, 63);}
+
+#secondary .widget_crf_otp_widget #crf_otp_login input {margin-top: 10px;}
+.crf_containers #crf_submission_top .crf_f_title {width: 87.5%; float: left;}
+.crf_f_box .crf_f_row .crf_f_delete img {width: 30px; height: 30px;}
+.crf_containers .crf_f_row .crf_f_label {float: left; width: 150px; color: #333;}
+.crf_containers .crf_f_row .crf_f_column {color: #969696; font-size: 14px;}
+.crf_containers .crf_f_row .crf_f_message {color: #1a1a1a;} 
+.crf_f_comment_wrapper #submit_crf_comment a {font-size: 14px; color: rgb(231, 63, 63); box-shadow: none;
+background-color: #f0f0f0; border: 1px solid #DADADA; padding: 2px 15px; margin: 10px 0 30px 0; float: left;} 
+.crf_f_row .crf_f_message a {font-size: 14px; color: rgb(231, 63, 63); float: right; box-shadow: none;}
+.crf_f_comment_wrapper .crf_f_row #crf_f_comment textarea.crf_comment_text {width: 100%; margin: auto !important; min-height: 150px; background-color: #efefef; border: 1px solid #DADADA;} 
+
+.crf_f_box #payment__detail span.entry_heading {padding-left: 10px;}
+
+#crf_f_tabs #tab_titles{float:left;width:91%;}
+
+#crf_f_tabs #crf_f_resubmit{float: left;margin: 0px;width: 9%;text-align: right;}
+
+#crf_f_loading{float:left;}
+
+.crf_f_text_center{text-align: center;}
